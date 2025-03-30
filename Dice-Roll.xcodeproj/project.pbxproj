@@ -1,0 +1,574 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		8070A3E62D99ADA800E66181 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8070A3C72D99ADA700E66181 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8070A3CE2D99ADA700E66181;
+			remoteInfo = "Dice-Roll";
+		};
+		8070A3F02D99ADA800E66181 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8070A3C72D99ADA700E66181 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8070A3CE2D99ADA700E66181;
+			remoteInfo = "Dice-Roll";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8070A3CF2D99ADA700E66181 /* Dice-Roll.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Dice-Roll.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8070A3E52D99ADA800E66181 /* Dice-RollTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Dice-RollTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8070A3EF2D99ADA800E66181 /* Dice-RollUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Dice-RollUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		8070A3F72D99ADA800E66181 /* Exceptions for "Dice-Roll" folder in "Dice-Roll" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 8070A3CE2D99ADA700E66181 /* Dice-Roll */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		8070A3D12D99ADA700E66181 /* Dice-Roll */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				8070A3F72D99ADA800E66181 /* Exceptions for "Dice-Roll" folder in "Dice-Roll" target */,
+			);
+			path = "Dice-Roll";
+			sourceTree = "<group>";
+		};
+		8070A3E82D99ADA800E66181 /* Dice-RollTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "Dice-RollTests";
+			sourceTree = "<group>";
+		};
+		8070A3F22D99ADA800E66181 /* Dice-RollUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "Dice-RollUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8070A3CC2D99ADA700E66181 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8070A3E22D99ADA800E66181 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8070A3EC2D99ADA800E66181 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8070A3C62D99ADA700E66181 = {
+			isa = PBXGroup;
+			children = (
+				8070A3D12D99ADA700E66181 /* Dice-Roll */,
+				8070A3E82D99ADA800E66181 /* Dice-RollTests */,
+				8070A3F22D99ADA800E66181 /* Dice-RollUITests */,
+				8070A3D02D99ADA700E66181 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8070A3D02D99ADA700E66181 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8070A3CF2D99ADA700E66181 /* Dice-Roll.app */,
+				8070A3E52D99ADA800E66181 /* Dice-RollTests.xctest */,
+				8070A3EF2D99ADA800E66181 /* Dice-RollUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8070A3CE2D99ADA700E66181 /* Dice-Roll */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8070A3F82D99ADA800E66181 /* Build configuration list for PBXNativeTarget "Dice-Roll" */;
+			buildPhases = (
+				8070A3CB2D99ADA700E66181 /* Sources */,
+				8070A3CC2D99ADA700E66181 /* Frameworks */,
+				8070A3CD2D99ADA700E66181 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				8070A3D12D99ADA700E66181 /* Dice-Roll */,
+			);
+			name = "Dice-Roll";
+			packageProductDependencies = (
+			);
+			productName = "Dice-Roll";
+			productReference = 8070A3CF2D99ADA700E66181 /* Dice-Roll.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8070A3E42D99ADA800E66181 /* Dice-RollTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8070A3FD2D99ADA800E66181 /* Build configuration list for PBXNativeTarget "Dice-RollTests" */;
+			buildPhases = (
+				8070A3E12D99ADA800E66181 /* Sources */,
+				8070A3E22D99ADA800E66181 /* Frameworks */,
+				8070A3E32D99ADA800E66181 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8070A3E72D99ADA800E66181 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				8070A3E82D99ADA800E66181 /* Dice-RollTests */,
+			);
+			name = "Dice-RollTests";
+			packageProductDependencies = (
+			);
+			productName = "Dice-RollTests";
+			productReference = 8070A3E52D99ADA800E66181 /* Dice-RollTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8070A3EE2D99ADA800E66181 /* Dice-RollUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8070A4002D99ADA800E66181 /* Build configuration list for PBXNativeTarget "Dice-RollUITests" */;
+			buildPhases = (
+				8070A3EB2D99ADA800E66181 /* Sources */,
+				8070A3EC2D99ADA800E66181 /* Frameworks */,
+				8070A3ED2D99ADA800E66181 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8070A3F12D99ADA800E66181 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				8070A3F22D99ADA800E66181 /* Dice-RollUITests */,
+			);
+			name = "Dice-RollUITests";
+			packageProductDependencies = (
+			);
+			productName = "Dice-RollUITests";
+			productReference = 8070A3EF2D99ADA800E66181 /* Dice-RollUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8070A3C72D99ADA700E66181 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1620;
+				LastUpgradeCheck = 1620;
+				TargetAttributes = {
+					8070A3CE2D99ADA700E66181 = {
+						CreatedOnToolsVersion = 16.2;
+					};
+					8070A3E42D99ADA800E66181 = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = 8070A3CE2D99ADA700E66181;
+					};
+					8070A3EE2D99ADA800E66181 = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = 8070A3CE2D99ADA700E66181;
+					};
+				};
+			};
+			buildConfigurationList = 8070A3CA2D99ADA700E66181 /* Build configuration list for PBXProject "Dice-Roll" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8070A3C62D99ADA700E66181;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 8070A3D02D99ADA700E66181 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8070A3CE2D99ADA700E66181 /* Dice-Roll */,
+				8070A3E42D99ADA800E66181 /* Dice-RollTests */,
+				8070A3EE2D99ADA800E66181 /* Dice-RollUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8070A3CD2D99ADA700E66181 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8070A3E32D99ADA800E66181 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8070A3ED2D99ADA800E66181 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8070A3CB2D99ADA700E66181 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8070A3E12D99ADA800E66181 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8070A3EB2D99ADA800E66181 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8070A3E72D99ADA800E66181 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8070A3CE2D99ADA700E66181 /* Dice-Roll */;
+			targetProxy = 8070A3E62D99ADA800E66181 /* PBXContainerItemProxy */;
+		};
+		8070A3F12D99ADA800E66181 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8070A3CE2D99ADA700E66181 /* Dice-Roll */;
+			targetProxy = 8070A3F02D99ADA800E66181 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		8070A3F92D99ADA800E66181 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = M86Y7J6537;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Dice-Roll/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.vaibhav.Dice-Roll";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8070A3FA2D99ADA800E66181 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = M86Y7J6537;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Dice-Roll/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.vaibhav.Dice-Roll";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		8070A3FB2D99ADA800E66181 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8070A3FC2D99ADA800E66181 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8070A3FE2D99ADA800E66181 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = M86Y7J6537;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.vaibhav.Dice-RollTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Dice-Roll.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Dice-Roll";
+			};
+			name = Debug;
+		};
+		8070A3FF2D99ADA800E66181 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = M86Y7J6537;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.vaibhav.Dice-RollTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Dice-Roll.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Dice-Roll";
+			};
+			name = Release;
+		};
+		8070A4012D99ADA800E66181 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = M86Y7J6537;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.vaibhav.Dice-RollUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Dice-Roll";
+			};
+			name = Debug;
+		};
+		8070A4022D99ADA800E66181 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = M86Y7J6537;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.vaibhav.Dice-RollUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Dice-Roll";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8070A3CA2D99ADA700E66181 /* Build configuration list for PBXProject "Dice-Roll" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8070A3FB2D99ADA800E66181 /* Debug */,
+				8070A3FC2D99ADA800E66181 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8070A3F82D99ADA800E66181 /* Build configuration list for PBXNativeTarget "Dice-Roll" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8070A3F92D99ADA800E66181 /* Debug */,
+				8070A3FA2D99ADA800E66181 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8070A3FD2D99ADA800E66181 /* Build configuration list for PBXNativeTarget "Dice-RollTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8070A3FE2D99ADA800E66181 /* Debug */,
+				8070A3FF2D99ADA800E66181 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8070A4002D99ADA800E66181 /* Build configuration list for PBXNativeTarget "Dice-RollUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8070A4012D99ADA800E66181 /* Debug */,
+				8070A4022D99ADA800E66181 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8070A3C72D99ADA700E66181 /* Project object */;
+}
